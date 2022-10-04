@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ar">
+
+  <head>
+  	<title>تعديل الملف الشخصي </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="sheet/css.css">
+
+	</head>
+	<body style="background-image: url(images/v748-toon-75.jpg); background-size: 100% ">
+
+		<!-- nav section -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top "dir="rtl">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#"> <img src="images/WhatsApp Image 2022-09-05 at 10.46.39 AM.jpeg" class="rounded-circle" alt=""></a>  
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link  " aria-current="page" href="index.html"> الأعضاء </a>
+                    </li>
+
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link " aria-current="page" href="registerAdmin.html">أنشاء  مستخدم</a>
+                    </li>
+
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link " aria-current="page" href="registerUser.html">أنشاء عضو </a>
+                    </li>
+
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link " aria-current="page" href="profileUser.html">الملف الشخصي  </a>
+                    </li>
+
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link " aria-current="page" href="login.html">تسجيل الخروج</a>
+                    </li>
+
+
+			  </div>
+			</div>
+		</nav>
+
+
+        <div class="container  mt-5">
+            <div class="main-body p-4">
+                <div class="row " dir="rtl">
+
+                    <!-- image form -->
+                    <form action="" class="col-lg-4 mt-5 " method="post">
+                        <div class="mt-5">
+                            <div class="card ">
+                                <div class="card-body p-2 ">
+                                    <div class="d-flex flex-column align-items-center text-center p-5">
+                                        <img src="images/avatar6.png" alt="Admin" class="rounded-circle p-1 bg-primary" width="110">
+                                        <div class="mt-4">
+                                            <h4>فادي فيكتور جرجس</h4>
+                                            <button class="btn btn-primary"> تغير الصوره</button>
+                                            <button class="btn btn-outline-primary">حفظ</button>
+                                        </div>
+                                    </div>
+                                   
+    
+                                </div>
+                            </div>
+                        </div>
+    
+                    </form>
+
+
+                    <!-- data form -->
+
+                    <form action="" class="col-lg-8 mt-5" method="post">
+                        <div class=" mt-5">
+                            <div class="card" dir="">
+                                <div class="card-body">
+                                    <div class="row mb-2">
+                                        <div class="col-sm-3 d-flex justify-content-center mt-2">
+                                            <h6 class="mb-0">الأسم كامل</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <input type="text" class="form-control" value="فادي فيكتور جرجس">
+                                        </div>
+                                    </div>
+    
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 d-flex justify-content-center mt-2">
+                                            <h6 class="mb-0">كلمة السر</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <input type="text" class="form-control" id="password" value="١٢٣">
+                                        </div>
+                                    </div>
+    
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 d-flex justify-content-center mt-2">
+                                            <h6 class="mb-0">تأكيد كلمة السر</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <input type="text" class="form-control" id="repassword" value="١٢٣">
+                                        </div>
+                                    </div>
+    
+                                    <div class=" alert mb-4 d-none  alert-danger col-lg-12 " id="passValidation"  role="alert">
+                                        كلمة السر غير متطابقين
+                                     </div>
+    
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 d-flex justify-content-center mt-2">
+                                            <h6 class="mb-0"> رقم الهاتف</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <input type="text" class="form-control" value="٠١٢٢٤٩٠١٦٩٩">
+                                        </div>
+                                    </div>
+      
+      
+    
+                                    <div class="row">
+                                        <div class="col-sm-3"></div>
+                                        <div class="col-sm-9 text-secondary d-flex justify-content-center">
+                                            <input type="button" onclick="val()" id="submit2" class="btn btn-primary  px-4" value="حفظ">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+		
+
+
+
+
+<script src="java/all.min.js"></script>
+<script src="java/popper.min.js"></script>
+<script src="java/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+	</body>
+</html>
+

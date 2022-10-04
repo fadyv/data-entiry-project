@@ -1,0 +1,66 @@
+body{ 
+    unicode-bidi:bidi-override; 
+    direction: ltr; 
+     
+    font-family: 'Scheherazade', serif;
+
+
+   }
+
+   .ftco-section {
+    padding: 3em 0;
+  }
+
+  #redisterAdmin .ftco-section {
+    padding: 5em 0;
+  }
+
+  
+
+.navbar img{
+    width: 50px;
+}  
+
+
+.fs-small{
+    font-size: 14px;
+}
+
+
+.pointer{
+    cursor: pointer;
+}
+
+
+body{
+
+    margin-top:20px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.me-2 {
+    margin-right: .5rem!important;
+}
+
+#home{
+    background-image: url(/images/4685.jpg) !important;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.vh-95{
+    height: 97vh;
+}
+
+

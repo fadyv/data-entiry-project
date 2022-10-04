@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ar">
+
+  <head>
+  	<title>الأعضاء</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="sheet/css.css">
+
+  
+
+	</head>
+	<body style="background-image: url(images/v748-toon-75.jpg); background-size: 100% 100%;">
+
+		<!-- nav section -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top "dir="rtl">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#"> <img src="images/WhatsApp Image 2022-09-05 at 10.46.39 AM.jpeg" class="rounded-circle" alt=""></a>  
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link active " aria-current="page" href="index.html"> الأعضاء </a>
+                    </li>
+
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link " aria-current="page" href="registerAdmin.html">أنشاء  مستخدم</a>
+                    </li>
+
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link " aria-current="page" href="registerUser.html">أنشاء عضو </a>
+                    </li>
+
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link " aria-current="page" href="profileUser.html">الملف الشخصي  </a>
+                    </li>
+
+
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link " aria-current="page" href="login.html">تسجيل الخروج</a>
+                    </li>
+
+
+			  </div>
+			</div>
+		</nav>
+
+
+    <section class=" mt-5"  id="#home">
+    <div class="container">
+        <div class="row " dir="rtl">
+
+            <div class=" mt-5 w-100 mb-4 d-flex justify-content-between">
+                <h3>جميع الأعضاء</h3>
+                <input type="text"  dir="rtl" class="form-control w-25 " onkeyup="Search()" placeholder="أبحث بالأسم" id="search">
+            </div>
+            
+            <div class="table-responsive custom-table-responsive mt-4">
+
+
+                <table class="table custom-table text-center " id="table" dir="rtl">
+                <thead>
+                    <tr class="fs-small">  
+        
+                    <th scope="col">#</th>  
+                    <th scope="col">الأسم</th>
+                    <th scope="col">السن</th>
+                    <th scope="col">العنوان</th>
+                    <th scope="col">الرقم القومي</th>
+                    <th scope="col">رقم الهاتف</th>
+                    <th scope="col">رقم الهاتف الأخر</th>
+                    <th scope="col"> الحاله الأجتماعيه</th>
+                    <th scope="col"> عدد الأولاد</th>
+                    <th scope="col">مصدر الدخل  </th>
+                    <th scope="col">أسم المندوب</th>
+                    <th scope="col">رقم المندوب</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+
+
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+
+                <tr class="spacer"><td colspan="100"></td></tr>
+                <tr class="fs-small" >
+                <th scope="row">١</th>                             
+                <td id="name">حامد ابراهيم احمد</td>
+                <td id="ProductCategory"> ٣٨ سنه </td>
+                <td id="ProductPrice"> شارع شبرا </td>
+                <td id="ProductDescription">٣٠٠٠٧٤٩٢٧٤٢٦٨٤</td>
+                <td>٠١٢٢٤٩٠١٦٩٩</td>
+                <td>٠١٠٠٨٤٤٠٢٣٨</td>
+                <td>أعزب</td>
+                <td>٣</td>
+                <td>لا يوجد</td>
+                <td>فادي فيكتور </td>
+                <td>٠١٢٢٤٩٠١٦٩٩</td>
+                <td><a href="editUser.html"><i class="fa-solid fa-pen-to-square"></i></a></td>
+                <td><i class="pointer fa-solid fa-trash-can"></i></td>
+
+                </tr>
+                <tr class="spacer"><td colspan="100"></td></tr>
+
+                <tr class="fs-small" >
+                    <th scope="row">١</th>                             
+                    <td>محمد حسن</td>
+                    <td> ٣٨ سنه </td>
+                    <td> شارع شبرا </td>
+                    <td>٣٠٠٠٧٤٩٢٧٤٢٦٨٤</td>
+                    <td>٠١٢٢٤٩٠١٦٩٩</td>
+                    <td>٠١٠٠٨٤٤٠٢٣٨</td>
+                    <td>أعزب</td>
+                    <td>٣</td>
+                    <td>لا يوجد</td>
+                    <td>فادي فيكتور </td>
+                    <td>٠١٢٢٤٩٠١٦٩٩</td>
+                    <td><a href="editUser.html"><i class="fa-solid fa-pen-to-square"></i></a></td>
+                    <td><i class="pointer fa-solid fa-trash-can"></i></td>
+
+                    </tr>
+                <tr class="spacer"><td colspan="100"></td></tr>
+
+                <tr class="fs-small" >
+                    <th scope="row">١</th>                             
+                    <td>اسماء محمد</td>
+                    <td> ٣٨ سنه </td>
+                    <td> شارع شبرا </td>
+                    <td>٣٠٠٠٧٤٩٢٧٤٢٦٨٤</td>
+                    <td>٠١٢٢٤٩٠١٦٩٩</td>
+                    <td>٠١٠٠٨٤٤٠٢٣٨</td>
+                    <td>أعزب</td>
+                    <td>٣</td>
+                    <td>لا يوجد</td>
+                    <td>فادي فيكتور </td>
+                    <td>٠١٢٢٤٩٠١٦٩٩</td>
+                    <td><a href="editUser.html"><i class="fa-solid fa-pen-to-square"></i></a></td>
+                    <td><i class="pointer fa-solid fa-trash-can"></i></td>
+
+                    </tr>
+                <tr class="spacer"><td colspan="100"></td></tr>
+
+                <tr class="fs-small" >
+                    <th scope="row">١</th>                             
+                    <td>حامد ابراهيم احمد</td>
+                    <td> ٣٨ سنه </td>
+                    <td> شارع شبرا </td>
+                    <td>٣٠٠٠٧٤٩٢٧٤٢٦٨٤</td>
+                    <td>٠١٢٢٤٩٠١٦٩٩</td>
+                    <td>٠١٠٠٨٤٤٠٢٣٨</td>
+                    <td>أعزب</td>
+                    <td>٣</td>
+                    <td>لا يوجد</td>
+                    <td>فادي فيكتور </td>
+                    <td>٠١٢٢٤٩٠١٦٩٩</td>
+                    <td><a href="editUser.html"><i class="fa-solid fa-pen-to-square"></i></a></td>
+                    <td><i class="pointer fa-solid fa-trash-can"></i></td>
+
+                    </tr>
+ 
+                <tr class="spacer"><td colspan="100"></td></tr>
+
+
+                </tbody>
+                </table>
+            </div>
+
+            <nav aria-label="Page navigation example  " class="w-100 d-flex justify-content-center"> 
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">١</a></li>
+                  <li class="page-item"><a class="page-link" href="#">٢</a></li>
+                  <li class="page-item"><a class="page-link" href="#">٣</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </section>
+		
+
+
+
+
+<script src="java/all.min.js"></script>
+<script src="java/popper.min.js"></script>
+<script src="java/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+	</body>
+</html>
+
